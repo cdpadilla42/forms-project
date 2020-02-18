@@ -151,7 +151,6 @@ header {
   background-color: lightblue;
   width: 318px;
   height: 649px;
-  padding: 30px;
   margin: 0 auto;
 }
 
@@ -168,4 +167,47 @@ footer {
   color: white;
   font-weight: 400;
   font-size: 14px;
+}
+
+/* Form Styling */
+
+form {
+  text-align: left;
+  margin: 30px;
+}
+
+.form-section {
+  border: 1px solid grey;
+}
+
+.form-section input {
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid grey;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+#phone {
+  margin-bottom: 0px;
+}
+
+.form-section .fine-print {
+  font-size: 12px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+#form-bttn {
+  width: 100%;
+  background-color: blue;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+}
+
+.form-footer {
+  width: 100%;
+  background-color: rgb(236, 238, 241);
 }
