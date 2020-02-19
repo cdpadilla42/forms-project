@@ -148,7 +148,6 @@ body {
   justify-content: flex-end;
 }
 .sign-in-block {
-  background-color: green;
 }
 
 header {
@@ -272,8 +271,21 @@ form {
 .sign-in-text {
   float: left;
   text-align: center;
+  justify-content: center;
+  margin-top: 5px;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #505050;
+  font-size: 12px;
+}
+.sign-in-text:first-child {
+  font-size: 12px;
+  height: 20px;
+  line-height: 18px;
 }
 
 .sign-in-bttn-div {
   float: left;
+  margin-left: 10px;
+  margin-right: 20px;
 }
