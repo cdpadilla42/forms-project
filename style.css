@@ -162,8 +162,16 @@ header {
 .form-section {
   background-color: #fff;
   width: 318px;
-  height: 649px;
+  /* height: 649px; */
   margin: 0 auto;
+}
+
+.form-footer {
+  width: 318px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid grey;
+  border-top: 0;
 }
 
 footer {
@@ -190,6 +198,8 @@ form {
 
 .form-section {
   border: 1px solid grey;
+  border-bottom: 0;
+  padding: 30px;
 }
 
 .form-section input {
@@ -220,11 +230,6 @@ form {
   padding: 8px;
   color: #fff;
   border-radius: 4px;
-}
-
-.form-footer {
-  width: 100%;
-  background-color: rgb(236, 238, 241);
 }
 
 /* Form Text */
