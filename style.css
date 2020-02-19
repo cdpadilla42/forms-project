@@ -162,7 +162,7 @@ header {
 .form-section {
   background-color: #fff;
   width: 318px;
-  /* height: 649px; */
+  /* height: 606px; */
   margin: 0 auto;
 }
 
@@ -193,7 +193,6 @@ footer {
 
 form {
   text-align: left;
-  margin: 30px;
 }
 
 .form-section {
@@ -202,7 +201,12 @@ form {
   padding: 30px;
 }
 
+.form-section label {
+  width: 100%;
+}
+
 .form-section input {
+  box-sizing: border-box;
   width: 100%;
   font-size: 16px;
   border: 1px solid grey;
