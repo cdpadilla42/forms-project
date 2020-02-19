@@ -179,6 +179,7 @@ footer {
   width: 90%;
   padding: 20px 0;
   margin: 12px auto;
+  margin-bottom: 0;
 }
 
 .btn-float {
@@ -187,6 +188,9 @@ footer {
   color: white;
   font-weight: 400;
   font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  right: 5%;
 }
 
 /* Form Styling */
@@ -226,7 +230,8 @@ form {
   display: block;
 }
 
-#form-bttn {
+#form-bttn,
+#signin-bttn {
   width: 100%;
   height: 44px;
   background-color: #0077c5;
@@ -234,6 +239,8 @@ form {
   padding: 8px;
   color: #fff;
   border-radius: 4px;
+  font-size: 1.125em;
+  font-weight: normal;
 }
 
 /* Form Text */
@@ -258,4 +265,15 @@ form {
 #inuit-logo {
   width: 118px;
   height: 35px;
+}
+
+/* Sign In Section */
+
+.sign-in-text {
+  float: left;
+  text-align: center;
+}
+
+.sign-in-bttn-div {
+  float: left;
 }
