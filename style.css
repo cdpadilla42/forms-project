@@ -125,10 +125,22 @@ table {
   border-spacing: 0;
 }
 
+/* Text Styles */
+
+* {
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #0077c5;
+  text-decoration: none;
+}
+
 /* Section Layout */
 
 body {
   text-align: center;
+  background-color: #eceef1;
 }
 
 .sign-in-path {
@@ -148,7 +160,7 @@ header {
 }
 
 .form-section {
-  background-color: lightblue;
+  background-color: #fff;
   width: 318px;
   height: 649px;
   margin: 0 auto;
@@ -187,6 +199,7 @@ form {
   margin-top: 5px;
   margin-bottom: 20px;
   padding: 5px;
+  font: 400 16px system-ui;
 }
 
 #phone {
@@ -201,13 +214,39 @@ form {
 
 #form-bttn {
   width: 100%;
-  background-color: blue;
+  height: 44px;
+  background-color: #0077c5;
+  border: #0077c5;
   padding: 8px;
-  color: white;
-  border-radius: 5px;
+  color: #fff;
+  border-radius: 4px;
 }
 
 .form-footer {
   width: 100%;
   background-color: rgb(236, 238, 241);
+}
+
+/* Form Text */
+
+.form-section h2 {
+  color: #4c4c4c;
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 24px;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#sub-header {
+  color: #4c4c4c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+/* header logos */
+
+#inuit-logo {
+  width: 118px;
+  height: 35px;
 }
