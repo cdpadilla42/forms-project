@@ -146,13 +146,13 @@ body {
 .sign-in-path {
   display: flex;
   justify-content: flex-end;
+  margin: 10px 0;
 }
 .sign-in-block {
 }
 
 header {
   display: block;
-  background-color: indianred;
   width: 233px;
   height: 50px;
   margin: 0 auto;
@@ -174,7 +174,6 @@ header {
 }
 
 footer {
-  background-color: lightcoral;
   width: 90%;
   padding: 20px 0;
   margin: 12px auto;
@@ -257,6 +256,19 @@ form {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.2;
+}
+
+#sub-header-link {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.form-fine-print {
+  line-height: 25px;
+  font-size: 12px;
+  font-style: italic;
+  color: #757575;
 }
 
 /* header logos */
